@@ -1,0 +1,35 @@
+#payment {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+
+  border: solid;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #681a63 0%, #3c1c65 62%, #312060 100%);
+  border-color: lightslategray;
+}
+
+#payment-balance {
+  border-right: solid;
+  border-left: solid;
+  border-color: lightgray;
+}
+
+#payment button,
+#stripe-button {
+  background: #e63757;
+  border-radius: 50em;
+  border-color: #e63757;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#payment .payoutbtn {
+  text-align: center;
+}
+
+#payment button:hover,
+#stripe-button:hover {
+  background: transparent;
+}
