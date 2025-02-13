@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import debug from "sabio-debug";
 import { toast } from "react-toastify";
 
 import stripeAccountService from "services/stripeAccountService";
 import paymentAccountService from "services/paymentAccountService";
 
-const _logger = debug.extend("Testing");
 
 const StripeAccountCreateBtn = () => {
   const [linkData, setLinkData] = useState({
@@ -20,7 +18,6 @@ const StripeAccountCreateBtn = () => {
     accountId: "",
     paymentTypeId: 1,
   });
-  _logger("State:", accountData);
 
   useEffect(() => {
     if (linkData.account !== "") {
