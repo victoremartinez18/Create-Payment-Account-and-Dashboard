@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col, Button } from "react-bootstrap";
-import debug from "sabio-debug";
 
 import "../PaymentAccount/paymentaccount.css";
 import { useSearchParams } from "react-router-dom";
@@ -10,7 +9,6 @@ import stripeAccountService from "services/stripeAccountService";
 import StripeAccountCreateBtn from "./StripeAccountCreateBtn";
 
 function PaymentAccount() {
-  const _logger = debug.extend("PaymentAccount");
 
   const [accountData, setAccountData] = useState({
     venueId: 0,
