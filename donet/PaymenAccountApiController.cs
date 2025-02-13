@@ -1,18 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Sabio.Services.Interfaces;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Models.Requests.Licenses;
-using Sabio.Web.Models.Responses;
-using System;
-using Sabio.Models.Requests;
-using Sabio.Models.Domain;
-using Sabio.Models;
-using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
 {
     [Route("api/paymentaccount")]
     [ApiController]
