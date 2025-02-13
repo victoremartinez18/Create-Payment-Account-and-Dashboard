@@ -1,9 +1,4 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using System.Collections.Generic;
-
-namespace Sabio.Services.Interfaces
+﻿
 {
     public interface IPaymentAccountService
     {
