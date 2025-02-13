@@ -1,19 +1,4 @@
-﻿using Sabio.Data.Providers;
-using Sabio.Models.Requests.Licenses;
-using Sabio.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Sabio.Models.Requests;
-using Sabio.Models.Domain;
-using Sabio.Data;
-using Sabio.Models;
 
-namespace Sabio.Services
 {
     public class PaymentAccountService : IPaymentAccountService
     {
