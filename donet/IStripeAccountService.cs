@@ -1,7 +1,4 @@
-﻿using Sabio.Models.Requests;
-using Stripe;
 
-namespace Sabio.Services.Interfaces
 {
     public interface IStripeAccountService
     {
